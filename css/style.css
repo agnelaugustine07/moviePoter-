@@ -1,0 +1,124 @@
+body {
+    background-color: #f5b609;
+    text-align: center;
+    margin-top: 50px;
+}
+.menu-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 9999;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: all .25s ease;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+}
+      /*for navigation links */
+.menu li a {
+    color: #0d0d0d;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+      /* a to hover*/
+.menu li a:hover {
+    background-color: #0d0d0d;
+    color: #f7f7f7;
+}
+.poster-container {
+    position: relative;
+    display: inline-block;
+}
+
+.poster-image {
+    width: 600px;
+    height: 700px;
+    border: 2px solid #333;
+}
+
+.poster-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    font-family: "Belanosima", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 77px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+@font-face {
+    font-family: "Belanosima";
+    src: url("./Belanosima-Bold.ttf") format("woff2"),
+         url("./Belanosima-Bold.ttf") format("woff");
+    /* Add additional font formats as needed */
+    font-weight: normal;
+    font-style: bold;
+}
+
+.sub h2 {
+    font-size: 20px;
+    color: red;
+    margin-top: 0px; /* Adjust the margin-top value as needed */
+    position: relative;
+    bottom: 15px;
+}
+
+.content {
+    margin-bottom: 50px;
+    justify-items: baseline;
+    position: relative;
+    bottom: 270px;
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center the flex items horizontally */
+    align-items: center; /* Center the flex items vertically */
+}
+
+.content1,
+.content2 {
+    flex: 1; /* Distribute the available space equally between the flex items */
+}
+.content1{
+    margin-left: 30PX;
+    margin-right: -5PX;
+    position: relative;
+    bottom: -1px;
+    font-size: 2px;
+}
+.content2{
+    margin-left: -3rem;
+    position: relative;
+    bottom: 0px;
+    font-size: 2px;
+    color: #f5f0f0;
+}
+footer{
+    font-size: 66PX;
+    padding: 1rem ;
+    align-items: center;
+    background-color:rgb(252, 174, 18);
+}
+.base{
+    position: relative;
+    bottom: 170px;
+}
